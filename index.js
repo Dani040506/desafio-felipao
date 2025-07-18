@@ -1,24 +1,25 @@
 //Projeto Classificador de Nível de Herói
 
 let nome = "Dani"
-let xp = 0
+let xpnumerica = 0
+let nivelHeroi = ""
 if(xp <= 1000){
     xp = "Ferro"
-}else if(xp >= 1001 && xp <= 2000){
-    xp = "Bronze"
-}else if(xp >= 2001 && xp <= 5000){
-    xp = "Prata"
-}else if(xp >= 5001 && xp <= 7000){
-    xp = "Ouro"
-}else if(xp >= 7001 && xp <= 8000){
-    xp = "Platina"
-}else if(xp >= 8001 && xp <= 9000){
-    xp = "Ascendente"
-}else if(xp >= 9001 && xp <= 10000){
-    xp = "Imortal"
-}else if(xp >= 10001){
-    xp = "Radiante"
+}else if(xpnumerica >= 1001 && xp <= 2000){
+    nivelHeroi = "Bronze"
+}else if(xpnumerica >= 2001 && xp <= 5000){
+    nivelHeroi = "Prata"
+}else if(xpnumerica >= 5001 && xp <= 7000){
+    nivelHeroi = "Ouro"
+}else if(xpnumerica >= 7001 && xp <= 8000){
+    nivelHeroi = "Platina"
+}else if(xpnumerica >= 8001 && xp <= 9000){
+    nivelHeroi = "Ascendente"
+}else if(xpnumerica >= 9001 && xp <= 10000){
+    nivelHeroi = "Imortal"
+}else if(xpnumerica >= 10001){
+    nivelHeroi = "Radiante"
 }
-xp++
 
-console.log("O herói de nome" + nome + "está no nível de " + xp)
+
+console.log("O herói de nome" + nome + "está no nível de " + nivelHeroi)
